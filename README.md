@@ -18,5 +18,5 @@ Deskripsi : Berlatih HTML dengan memanipulasi template CV
 
 <img width="2830" height="954" alt="image" src="https://github.com/user-attachments/assets/ebb77342-87b8-4e7c-830e-edd62c247b6c" />
 
-Link web: https://cvhtml098.netlify.app/
+Link web: https://html098.netlify.app
 
