@@ -1,0 +1,55 @@
+   body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117; /* warna gelap */
+      color: #e6edf3; /* teks putih lembut */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: #161b22;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .hero {
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #9ca3af;
+      font-size: 16px;
+      max-width: 500px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #6366f1;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #4f46e5;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 15px;
+      background-color: #161b22;
+      color: #9ca3af;
+      font-size: 14px;
+    }
