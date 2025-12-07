@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencarian Kode Pos Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Pencarian Kode Pos Indonesia</h1>
+        <p>Masukkan informasi daerah untuk menemukan Kode Pos.</p>
+
+        <form id="zipCodeForm">
+            <label for="provinsi">Provinsi:</label>
+            <input type="text" id="provinsi" name="provinsi" required placeholder="Contoh: Jawa Barat">
+
+            <label for="kota">Kabupaten/Kota:</label>
+            <input type="text" id="kota" name="kota" required placeholder="Contoh: Bandung">
+
+            <label for="kecamatan">Kecamatan:</label>
+            <input type="text" id="kecamatan" name="kecamatan" required placeholder="Contoh: Coblong">
+
+            <button type="submit">Cari Kode Pos</button>
+        </form>
+
+        <div id="resultContainer" class="result-container">
+            <h2>Hasil Pencarian</h2>
+            <div id="output">
+                <p>Masukkan data dan klik 'Cari Kode Pos'.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
