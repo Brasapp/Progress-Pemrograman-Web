@@ -4,7 +4,7 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laundry Masuk Sederhana</title>
+    <title>Laundry Masuk Sederhana (CRUD)</title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@ include 'koneksi.php';
             <th>Pelanggan</th>
             <th>Berat (kg)</th>
             <th>Tanggal Masuk</th>
-        </tr>
+            <th>Aksi</th> </tr>
         <?php 
         $no = 1;
         $data = mysqli_query($koneksi,"SELECT * FROM transaksi_masuk ORDER BY tgl_masuk DESC");
@@ -39,6 +39,10 @@ include 'koneksi.php';
             <td><?php echo $d['nama_pelanggan']; ?></td>
             <td><?php echo $d['berat_kg']; ?></td>
             <td><?php echo $d['tgl_masuk']; ?></td>
+            <td>
+                <a href="edit.php?id=<?php echo $d['id']; ?>">EDIT</a> |
+                <a href="hapus.php?id=<?php echo $d['id']; ?>" onclick="return confirm('Yakin ingin menghapus data ini?')">HAPUS</a>
+            </td>
         </tr>
         <?php 
         }
